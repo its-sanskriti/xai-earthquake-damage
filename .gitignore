@@ -205,3 +205,32 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# --- Project-specific rules for XAI Earthquake Damage Detection ---
+
+# Large dataset archives
+*.tar
+*.zip
+*.7z
+*.rar
+
+# Preprocessed data chunks
+earthquake_part_*.npz
+*.npy
+
+# Raw/extracted datasets
+data/raw/
+data/processed/
+datasets/
+outputs/
+checkpoints/
+logs/
+
+# Ignore all large image sets but keep small samples
+*.png
+*.jpg
+*.jpeg
+!sample_*.png
+!sample_*.jpg
+
