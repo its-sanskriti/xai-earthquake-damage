@@ -71,3 +71,32 @@ xai-earthquake-damage/
 │
 ├── .gitignore
 └── README.md
+
+
+---
+
+## 🔹 Current Progress
+✅ Dataset preprocessing and filtering completed  
+✅ Earthquake-only labeled data verified  
+🔄 CNN feature extraction (ResNet50) in progress  
+🧠 Next: XGBoost classifier + XAI integration  
+
+---
+
+## 🔹 Future Work
+- Improve label balance across damage categories  
+- Extend to multiple disaster types (floods, fire, etc.)  
+- Compare multiple XAI visualization techniques  
+- Evaluate explainability metrics for better trust in model outputs  
+
+---
+
+## 💻 Tech Stack
+- Python · NumPy · TensorFlow/Keras · XGBoost · Matplotlib  
+- Google Colab · OpenCV · tqdm
+
+---
+
+*This project aims to contribute toward interpretable disaster impact assessment using AI — combining accuracy, transparency, and societal relevance.*
+
+
