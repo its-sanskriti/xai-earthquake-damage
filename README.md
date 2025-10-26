@@ -82,6 +82,19 @@ xai-earthquake-damage/
 🧠 Next: XGBoost classifier + XAI integration  
 
 ---
+## ⚙️ Project Scope and Current Status
+
+This repository implements a **working pipeline** for Explainable AI (XAI)-based Earthquake Damage Detection.
+
+The current version focuses on:
+- Building a **complete pipeline** — from data preprocessing to explainability (Grad-CAM, SHAP).
+- Demonstrating the workflow of how satellite imagery is processed, labeled, and analyzed using **ResNet50 + XGBoost**.
+- Showing **explainability visualizations** and interpretation logic.
+
+> ⚠️ **Note:**  
+> This project currently functions as a **prototype / proof-of-concept** rather than a final damage detection model.  
+> It demonstrates the **working pipeline, model interpretability, and methodology**, suitable for academic presentation and future model improvements.
+
 
 ## 🔹 Future Work
 - Improve label balance across damage categories  
